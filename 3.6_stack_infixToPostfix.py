@@ -18,7 +18,8 @@ class Stack:
         return len(self.items)
     
 def infixToPostfix(infixexpr):
-    prec = {}   
+    prec = {}  
+    prec["^"] = 4
     prec['*'] = 3
     prec['/'] = 3
     prec['+'] = 2
