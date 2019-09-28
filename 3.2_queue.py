@@ -13,3 +13,9 @@ class Queue:
     
     def size(self):
         return len(self.items)
+
+q = Queue()
+
+q.enqueue(4)
+q.enqueue("dog")
+q.enqueue(True)
